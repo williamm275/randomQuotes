@@ -1,6 +1,7 @@
 const randomQuote = () => {
     const quote = [];
-    const quoteSelector = Math.floor(Math.random() * 5);
+    const quoteSelector = Math.floor(Math.random() * 6);
+    console.log(quoteSelector);
     if (quoteSelector === 0) {
         quote.push("“We cannot solve problems with the kind of thinking we employed when we came up with them.” — Albert Einstein");
     } else if (quoteSelector === 1) {
